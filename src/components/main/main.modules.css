@@ -1,0 +1,72 @@
+.container{
+    padding: 2.5rem 1.5rem;
+    border: 1px solid #fff;
+    width: 380px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #f4f4f4;
+
+}
+.topSide{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(226,220,220);
+    width: 100%;
+}
+.inputTodo{
+outline: none;
+border: none;
+width: 75%;
+height: 50px;
+border-radius: 12px;
+color: #fff;
+font-size: 18px;
+padding-left: 12px;
+}
+.inputTodo::placeholder{
+    color: #fff;
+}
+.addTodoBtn{
+    height: 50px;
+    width: 25%;
+    border: none;
+    background-color: #fff;
+    color: #2976c4;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.addTodoBtn:hover{
+    background-color: rgb(51, 48, 48);
+    color: #fff;
+}
+.bootomSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 300px;
+    overflow-y:auto ;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}

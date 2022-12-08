@@ -1,0 +1,24 @@
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    border: 1px solid #fff;
+    height: 50px;
+    background-color: #2976c4;
+}
+.text1{
+    color: #fff;
+    font-size: 20px;
+}
+.deleteIcon1{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
